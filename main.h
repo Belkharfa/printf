@@ -32,4 +32,5 @@ int _bin(va_list bin);
 int _putchar(char c);
 int print_string(va_list types, char buffer[],
         int flags, int width, int precision, int size);
+int get_flags(const char *format, int *i);
 #endif
